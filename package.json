@@ -1,0 +1,23 @@
+{
+  "name": "codechallenge",
+  "version": "1.0.0",
+  "description": "code challenge project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axlgoze/Code-Challenge.git"
+  },
+  "author": "Axl reyes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/axlgoze/Code-Challenge/issues"
+  },
+  "homepage": "https://github.com/axlgoze/Code-Challenge#readme",
+  "devDependencies": {
+    "jest": "^26.0.0"
+  }
+}
