@@ -10,6 +10,12 @@ Este es un proyecto de ejercicio Back-end desarrollado para Visual Partnership
 2. Habilitar un endpoint para consultar los emails de todos los estudiantes que tengan certificación haveCertification.
 3. Habilitar un endpoint para consultar todos los estudiantes que tengan credits mayor a 500.
 
+| Endpoint | Request | Response |
+|---|---|---|
+| `localhost:3000/v1/students` | `localhost:3000/v1/students` | Deberás obtener la lista de students consultarn tengan todos sus campos |
+| `localhost:3000/v1/students/email/:certification` | `localhost:3000/v1/students/email/true` | Deberás obtener los correos electronicos de los students que tengan una certificacion |
+| `localhost:3000/v1/students/credits` | `localhost:3000/v1/srudents/credits` | Deberás obtener la lista de los studients con más de 500 cretitos |
+
 ## Dependencias usadas
 
 🍐 ### Jest
@@ -44,7 +50,7 @@ Airbnb Code Style: https://github.com/airbnb/javascript
 Estos son los datos de la db en archivo json
 
 <details>
-<summary> app.js & explorers.json </summary>
+<summary> students.json </summary>
 ```
 [
   {
