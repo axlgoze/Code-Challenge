@@ -6,7 +6,6 @@ Este es un proyecto de ejercicio Back-end desarrollado para Visual Partnership
 
 ## Requerimientos
 
-
 1. Habilitar un endpoint para consultar todos los estudiantes con todos sus campos.
 2. Habilitar un endpoint para consultar los emails de todos los estudiantes que tengan certificación haveCertification.
 3. Habilitar un endpoint para consultar todos los estudiantes que tengan credits mayor a 500.
