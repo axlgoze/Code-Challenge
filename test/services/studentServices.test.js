@@ -4,4 +4,9 @@ describe("Test Suite for student services", () =>{
 		const students = Reader.readJsonFile("students.json");
 		expect(students).toBeDefined();
 	});
+	test("1) Get all students information", ()=>{
+		const students = Reader.readJsonFile("students.json");
+		const studentsAmount = students.length;
+		expect(studentsAmount).toBe(51);
+	});
 });
