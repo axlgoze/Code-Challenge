@@ -52,9 +52,9 @@ classDiagram
 ```mermaid
 classDiagram
     class StudentService
-    StudenService : +getStudents(students)
-    StudenService : +filterStudentsByCertification(students,certification)
-    StudenService : +filterStudentsByCredits(students,credits)
+    StudentService : +getStudents(students)
+    StudentService : +filterStudentsByCertification(students,certification)
+    StudentService : +filterStudentsByCredits(students,credits)
 ```
 
 ```mermaid
