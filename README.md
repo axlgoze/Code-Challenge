@@ -43,8 +43,36 @@ Airbnb Code Style: https://github.com/airbnb/javascript
 
 ## Componentes
 
+```mermaid
+classDiagram
+    class Reader
+    Reader : +readJsonFile(filePath)
+```
+
+```mermaid
+classDiagram
+    class StudentService
+    StudenService : +getStudents(students)
+    StudenService : +filterStudentsByCertification(students,certification)
+    StudenService : +filterStudentsByCredits(students,credits)
+```
+
+```mermaid
+classDiagram
+    class CreditService
+    CreditService : +applyValidationInStudents(students,credits)
+```
+
+
+
 ## Como consultar API
 
+## notas + To do list
+
+- crear un modelo de estudiante
+- crear un metodo para obtener todos los estudiantes con todos sus campos
+- crear un metodo para consultar todos los emails con certificacion
+- crear un metodo para constultar todos los estudiantes que tengan credits mayhor a 500
 
 
 Estos son los datos de la db en archivo json
