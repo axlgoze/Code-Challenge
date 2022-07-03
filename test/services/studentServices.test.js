@@ -1,5 +1,5 @@
 const Reader=require("./../../app/models/utils/Reader");
-const StudentService=require("./../../app/models/services/StudentService")
+const StudentService=require("./../../app/models/services/studentService")
 describe("Test Suite for student services", () =>{
 	test('0) Read json file',()=>{
 		const students = Reader.readJsonFile("students.json");
