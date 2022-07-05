@@ -70,7 +70,7 @@ classDiagram
 ## notas + To do list
 
 - ~~crear un metodo para obtener todos los estudiantes con todos sus campos~~
-- crear un metodo para consultar todos los emails con certificacion
+- ~~crear un metodo para consultar todos los emails con certificacion~~
 - crear un metodo para constultar todos los estudiantes que tengan credits mayhor a 500
 
 
