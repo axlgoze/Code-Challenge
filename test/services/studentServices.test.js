@@ -14,7 +14,7 @@ describe("Test Suite for student services", () =>{
 	test("2) get email from students with certificacion", ()=>{
 		const students = Reader.readJsonFile("students.json");
 		const StudentsEmailsWithCertification = CertificationService.haveCertification(students);
-		expect(StudentsEmailsWithCertification).toBe(25);
+		expect(StudentsEmailsWithCertification).toBe(29);
 	});
 
 });
