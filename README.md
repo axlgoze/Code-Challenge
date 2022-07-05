@@ -71,8 +71,11 @@ classDiagram
 
 - ~~crear un metodo para obtener todos los estudiantes con todos sus campos~~
 - ~~crear un metodo para consultar todos los emails con certificacion~~
-- crear un metodo para constultar todos los estudiantes que tengan credits mayhor a 500
-
+- ~~crear un metodo para constultar todos los estudiantes que tengan credits mayhor a 500~~
+- verificar primer metodo conectado a controlador
+- enlazar metodos de servicio al controlador
+- creacion de endpoints
+- verificacion de funcionamiento correcto de endpoints
 
 Estos son los datos de la db en archivo json
 
