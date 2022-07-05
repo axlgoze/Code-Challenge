@@ -20,7 +20,7 @@ describe("Test Suite for student services", () =>{
 	test("3) get students with credits > 500", ()=>{
 		const students = Reader.readJsonFile("students.json");
 		const StudentsWithCredits = CreditService.getStudentsByCredits(students);
-		expect(StudentsWithCredits).toBe(38);
+		expect(StudentsWithCredits).toBe(27);
 	});
 
 });
