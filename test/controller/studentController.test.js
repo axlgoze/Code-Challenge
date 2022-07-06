@@ -22,5 +22,10 @@ describe("Test suite for student controller", ()=>{
 	const studentswc = StudentController.getStudentswCertification(students);
 	expect(studentswc).toBeDefined();
 	});
+	test("4) get students with more than 500 credits", ()=>{
+	const students = Reader.readJsonFile("students.json");
+	const studentswCredits = StudentController.getStudentsByCreditsController(students);
+	expect(studentswCredits).toBeDefined();
+	});
 
 })
