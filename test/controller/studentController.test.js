@@ -17,4 +17,10 @@ describe("Test suite for student controller", ()=>{
 	const studentsAllInfo = StudentController.getStudentsByController(students);
 	expect(studentsAllInfo).toBeDefined();
 	});
+	test("3) get students with Certification", ()=>{
+	const students = Reader.readJsonFile("students.json");
+	const studentswc = StudentController.getStudentswCertification(students);
+	expect(studentswc).toBeDefined();
+	});
+
 })
