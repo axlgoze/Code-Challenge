@@ -18,6 +18,11 @@ app.get("/students/info/emails", (request,response)=>{
 	response.json(studentsInfoEmails);
 });
 
+app.get("/students/info/credits", (request,response)=>{
+	const studentsInfoCredits = StudentController.getStudentsByCreditsController();
+	response.json(studentsInfoCredits);
+});
+
 app.listen(port, () =>{
 	console.log(`Code challenge API in localhost:${port}`);
 });
