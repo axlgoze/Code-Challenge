@@ -5,8 +5,9 @@ class CertificationService{
 
 static haveCertification(students){
 	const studentWithCertification = students.filter((student)=> student.haveCertification === true);
-//	const studientWcAmount= studentWithCertification.lenght;
-	return studentWithCertification.length;
+	const studentswC= studentWithCertification;
+//	return studentWithCertification.length;
+	return studentswC;
 }
 
 }
