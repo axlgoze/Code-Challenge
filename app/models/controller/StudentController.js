@@ -10,12 +10,14 @@ class StudentController{
 		return studentsInfo;
 	}
 
-	static getStudentswCertification(students){
+	static getStudentswCertification(){
+		const students=Reader.readJsonFile("students.json");
 		const studentswC = CertificationService.haveCertification(students);
 		return studentswC;
 	}
 
-	static getStudentsByCreditsController(students){
+	static getStudentsByCreditsController(){
+		const students=Reader.readJsonFile("students.json");
 		const studentsCredits = CreditService.getStudentsByCredits(students);
 		return studentsCredits;
 	}
