@@ -13,6 +13,11 @@ app.get("/students/info", (request,response)=>{
 	response.json(studentsInfo);
 });
 
+app.get("/students/info/emails", (request,response)=>{
+	const studentsInfoEmails = StudentController.getStudentswCertification();
+	response.json(studentsInfoEmails);
+});
+
 app.listen(port, () =>{
 	console.log(`Code challenge API in localhost:${port}`);
 });
