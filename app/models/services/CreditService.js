@@ -4,7 +4,7 @@ class CreditService{
 	static getStudentsByCredits(students){
 		const studentByCredits=students.filter((student)=> student.credits >= 500);
 //		if(student.credits >=500){
-			return studentByCredits.length;
+			return studentByCredits;
 //		}
 	}
 
