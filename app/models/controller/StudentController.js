@@ -1,9 +1,11 @@
 const StudentService=require("./../services/studentService");
 const CertificationService=require("./../services/CertificationService");
 const CreditService=require("./../services/CreditService");
+const Reader = require("./../utils/Reader");
 
 class StudentController{
-	static getStudentsByController(students){
+	static getStudentsByController(){
+		const students=Reader.readJsonFile("students.json");
 		const studentsInfo = StudentService.getStudents(students);
 		return studentsInfo;
 	}
