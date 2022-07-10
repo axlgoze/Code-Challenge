@@ -76,6 +76,7 @@ classDiagram
 - ~~enlazar metodos de servicio al controlador~~
 - creacion de endpoints
 - verificacion de funcionamiento correcto de endpoints
+- mover directorio de controller una carpeta antes
 
 Estos son los datos de la db en archivo json
 
